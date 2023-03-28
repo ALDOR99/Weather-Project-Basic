@@ -49,6 +49,7 @@ app.post("/", function (req, res) {
           " degrees celcius</h1>"
       );
       res.write("<img src=" + imageURL + ">");
+      res.send();
       //---------------------------------------------------------------------
     });
   });
